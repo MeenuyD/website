@@ -105,15 +105,19 @@ If you haven't already set up a cluster locally, run `minikube start` to create 
    The output is similar to:
 
    ```none
-   http://172.17.0.15:31637
+   Hello, world!
+   Version: 1.0.0
+   Hostname: web-55b8c6998d-8k564
+   ```
+
+   ```shell
+   curl ip-addr
    ```
 
    The output is similar to:
 
    ```none
-   Hello, world!
-   Version: 1.0.0
-   Hostname: web-55b8c6998d-8k564
+   http://172.17.0.15:31637
    ```
 
    You can now access the sample application via the Minikube IP address and NodePort.
